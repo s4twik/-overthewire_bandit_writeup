@@ -27,7 +27,23 @@ password:aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 cd inhere
 ls -a
 cat .hidden
+passoword:2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 ````
 #### LEVEL 4 -> LEVEL 5
+````
+cd inhere
+ls -h
+cat <-file01
+cat <-file02
+cat <-file03
+cat <-file04
+cat <-file05
+cat <-file06
+cat <-file07
+
+Password: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+````
+#### LEVEL 5 ->LEVEL 6
+````
 
 
