@@ -13,6 +13,7 @@ password:NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 ````
 #### LEVEL 1 -> LEVEL 2
 ````
-cat ./-
+cat ./- #concatenates the dashed
+password :rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 ````
 
