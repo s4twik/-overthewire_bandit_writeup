@@ -19,5 +19,15 @@ password :rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 
 #### LEVEL 2 -> LEVEL 3
 ````
-cat 'spaces in this file name ' #treating space characters as string characters when put in single quotes
+cat 'spaces in this filename' #treating space characters as string characters when put in single quotes
+password:aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
 ````
+#### LEVEL 3 -> LEVEL 4
+````
+cd inhere
+ls -a
+cat .hidden
+````
+#### LEVEL 4 -> LEVEL 5
+
+
