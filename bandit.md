@@ -45,5 +45,9 @@ Password: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ````
 #### LEVEL 5 ->LEVEL 6
 ````
-
+cd inhere
+-size 1033c
+Password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+````
+#### LEVEL 6 -> LEVEL 7
 
