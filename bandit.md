@@ -1,5 +1,5 @@
 #### Writeup on https://overthewire.org/wargames
-#### LEVEL 0https://github.com/s4twik/-overthewire_bandit_writeup/blob/main/bandit.md
+#### LEVEL 0
 ````
 ssh bandit0@bandit.labs.overthewire.org -p 2220
               password: bandit0
@@ -50,4 +50,6 @@ cd inhere
 Password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 ````
 #### LEVEL 6 -> LEVEL 7
+````
+
 
