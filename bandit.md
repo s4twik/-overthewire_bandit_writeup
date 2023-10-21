@@ -66,3 +66,13 @@ grep millionth data.txt
 PASSWORD :TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 ````
 #### LEVEL 8 -> LEVEL 9
+````
+read about uniq command
+used uniq -u data.txt
+got many answers read the documentation again and found that it only checks the adjacent lines
+so i sorted it first then piped it in uniq
+sort data.txt | uniq -u
+````
+#### LEVEL 9 -> LEVEL 10
+
+
