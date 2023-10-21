@@ -72,7 +72,22 @@ used uniq -u data.txt
 got many answers read the documentation again and found that it only checks the adjacent lines
 so i sorted it first then piped it in uniq
 sort data.txt | uniq -u
+PASSWORD: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 ````
 #### LEVEL 9 -> LEVEL 10
-
-
+````
+i read the documentation about strings so just put it use
+strings data.txt
+it workeed i scrolled and the got the the string with many = as mentioned in qustion
+then i remembered about ^ in grep command which can make it more efficient
+strings data.txt | grep ^===
+PASSWORD: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+````
+#### LEVEL 10 -> LEVEL 11
+````
+read about base64 was quiet simple but i didn't understand how the encryption so watched a video on it
+base64 -d data.txt
+PASSWORD:6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+````
+#### LEVEL 11 -> LEVEL 12
+````
