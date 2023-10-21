@@ -91,3 +91,8 @@ PASSWORD:6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ````
 #### LEVEL 11 -> LEVEL 12
 ````
+read translate's documentation i understood that this command will be used in question but i was not getting syntax
+so i watched a video and then came up with this command
+cat data.txt | tr 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 'nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM'
+
+````
