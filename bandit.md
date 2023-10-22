@@ -90,14 +90,14 @@ base64 -d data.txt
 PASSWORD:6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 ````
 #### LEVEL 11 -> LEVEL 12
-
+````
 read translate's documentation i understood that this command will be used in question but i was not getting syntax
 so i watched a video and then came up with this command
 cat data.txt | tr 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 'nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM'
 PASSWORD:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
-
-#### LEVEL 12 -> LEVEL 13
 ````
+#### LEVEL 12 -> LEVEL 13
+`
 too much to read first all
 
 stard with making a directory called satwik with
@@ -109,4 +109,4 @@ read the xxd man file again figuered that i have to pipe the cat in it
 `cat data.txt | xxd -r > /tmp/satwik/file1`
 
 
-````
+`
