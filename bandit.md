@@ -94,5 +94,10 @@ PASSWORD:6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 read translate's documentation i understood that this command will be used in question but i was not getting syntax
 so i watched a video and then came up with this command
 cat data.txt | tr 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 'nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM'
-
+PASSWORD:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ````
+#### LEVEL 12 -> LEVEL 13
+````
+too much to read first all
+stard with making a directory called satwik with
+`mkdir /tmp/satwik`
