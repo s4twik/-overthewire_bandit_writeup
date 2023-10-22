@@ -123,4 +123,6 @@ now i am getting files in bzip2 so it should be decompressed with
 bzcat
 i keep continuing i get tar files i couldn't figure out how to de archive the files so i googled it, it showed me the use of -xvf
 i got those file and continued the same way. till i got my password
+
+PASSWORD : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ````
