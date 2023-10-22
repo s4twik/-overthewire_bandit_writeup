@@ -97,10 +97,10 @@ cat data.txt | tr 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 'nopqrs
 PASSWORD:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ````
 #### LEVEL 12 -> LEVEL 13
-````
+
 too much to read first all
 stard with making a directory called satwik with
-mkdir /tmp/satwik
+`mkdir /tmp/satwik`
 tried xxd -r data.txt
 didn't get anything of use
 tried cat data.txt to see the hexadecimal thing
