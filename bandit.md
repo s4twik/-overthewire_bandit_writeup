@@ -100,4 +100,7 @@ PASSWORD:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ````
 too much to read first all
 stard with making a directory called satwik with
-`mkdir /tmp/satwik`
+mkdir /tmp/satwik
+tried xxd -r data.txt
+didn't get anything of use
+tried cat data.txt to see the hexadecimal thing
