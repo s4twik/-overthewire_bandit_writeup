@@ -97,10 +97,10 @@ cat data.txt | tr 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 'nopqrs
 PASSWORD:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 ````
 #### LEVEL 12 -> LEVEL 13
-`
+````
 too much to read first all
 
-started with making a directory called satwik with
+started with making a directory called satwik
 mkdir /tmp/satwik
 tried xxd -r data.txt
 didn't get anything of use
@@ -112,5 +112,15 @@ cd /tmp/satwik
 had no clue what to do now
 read all the documents again. slept .
 checked the file type of file1 with file command  file file1
-
-`
+since it's in zip compressed so it should be decompressed with zcat
+zcat file1
+nothing happened because i wasn't storing the data anywhere i was just decompressing it
+zcat file1>file2
+file file2
+it's in zip too so again
+zcat file2> file3
+now i am getting files in bzip2 so it should be decompressed with
+bzcat
+i keep continuing i get tar files i couldn't figure out how to de archive the files so i googled it, it showed me the use of -xvf
+i got those file and continued the same way. till i got my password
+````
