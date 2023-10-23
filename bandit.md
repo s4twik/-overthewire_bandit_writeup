@@ -134,8 +134,11 @@ PASSWORD : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ````
 #### LEVEL 13 -> LEVEL 14
 ````
-READ ABOUT SSH COMMANDS
+READ ABOUT SSH COMMAND
 ls (only one file is available sshkey.private)
+tried piping sshkey.private in ssh
+cat sshkey.private | sshkey -i
+nothing happened 
  ssh -i sshkey.private bandit14@localhost
 permissioin was denied cuz i was trying to connecting to port 22
 it happend to me when i missed -p2220 while logining as bandit1
