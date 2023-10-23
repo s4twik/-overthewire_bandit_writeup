@@ -126,3 +126,19 @@ i got those file and continued the same way. till i got my password
 
 PASSWORD : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ````
+#### LEVEL 13 -> LEVEL 14
+````
+READ ABOUT SSH COMMANDS
+ls (only one file is available sshkey.private)
+
+permissioin was denied cuz i was trying to connecting to port 22
+it happend to me when i missed -p2220 while logining as bandit1
+ ssh -i sshkey.private bandit14@localhost -p2220
+it worked
+just concatenated the file given in question
+cat /etc/bandit_pass/bandit14
+PASSWORD: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+````
+#### LEVEL 14 -> LEVEL 15
+````
+
