@@ -136,10 +136,10 @@ PASSWORD : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 ````
 READ ABOUT SSH COMMANDS
 ls (only one file is available sshkey.private)
-
+ ssh -i sshkey.private bandit14@localhost
 permissioin was denied cuz i was trying to connecting to port 22
 it happend to me when i missed -p2220 while logining as bandit1
- ssh -i sshkey.private bandit14@localhost -p2220
+ 
 it worked
 just concatenated the file given in question
 cat /etc/bandit_pass/bandit14
