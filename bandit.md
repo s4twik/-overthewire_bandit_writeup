@@ -5,12 +5,13 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
               password: bandit0
 ````
 #### LEVEL 0 -> LEVEL 1
-````
-cd #to open the home directory
+
+`cd` #to open the home directory
 ls -l #to see the file
 cat readme #to concatinate the readme file
+```
 password:NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
-````
+```
 #### LEVEL 1 -> LEVEL 2
 ````
 cat ./- #concatenates the dashed
