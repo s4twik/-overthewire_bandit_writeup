@@ -158,3 +158,6 @@ PASSWORD: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 ```
 #### LEVEL 14 -> LEVEL 15
 
+read about telnet command
+since it helps remote access a system on same network
+telenet 30000
