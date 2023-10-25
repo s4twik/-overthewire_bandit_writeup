@@ -168,5 +168,5 @@ fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
 
 Got the new password 
 ```
-jN2kgmlXJ6fShzhT2avhotn4Zcka6tnt
+PASSWORD: jN2kgmlXJ6fShzhT2avhotn4Zcka6tnt
 ```
