@@ -171,3 +171,17 @@ Got the new password
 ```
 PASSWORD: jN2kgmlXJ6fShzhT2avhotn4Zcka6tnt
 ```
+#### LEVEL 15 -> LEVEL 16
+read about openssl didn't understand anything
+watched a few videos about it
+tried `openssl localhost -p30001`
+didn't work
+read the manpage one more time, so put s_client and the correct syntax of entering the port
+`openssl s_client -connect localhost:30001`
+`read R BLOCK` showed up, didn't understand what to do so i tried putting in the password and voila it worked
+
+```
+PASSWORD: JQttfApK4SeyHwDlI9SXGR50qclOAil1
+```
+#### LEVEL 16 -> LEVEL 17
+
