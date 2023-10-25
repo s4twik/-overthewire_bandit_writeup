@@ -163,9 +163,10 @@ since it helps remote access a system on same network
 `telenet 30000`
 got an error, realised to use localhost
 `telenet localhost 30000`
-`Entered the password of this level
-fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
-
+Entered the password of this level
+`fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq`
+        OR
+`nc localhost 30000`
 Got the new password 
 ```
 PASSWORD: jN2kgmlXJ6fShzhT2avhotn4Zcka6tnt
