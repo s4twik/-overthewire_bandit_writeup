@@ -184,4 +184,13 @@ read the manpage one more time, so put s_client and the correct syntax of enteri
 PASSWORD: JQttfApK4SeyHwDlI9SXGR50qclOAil1
 ```
 #### LEVEL 16 -> LEVEL 17
-
+Read about nmap so knew that it was gonna be used
+`nmap localhost -p 31000-32000` 
+got all the ports which were in open state
+now we had to know filter the ports whose service was ssh so used `-sV` with
+`nmap localhost -sV -p 31046,31518,31691,31790,31960 `
+got two ports which were ssl
+so `openssl s_client bandit17@localhost:31790` didn't work cuz didn't use `-connect`
+`openssl s_client -connect localhost:31790` gave me the rsa file
+i saved that in a file rsafile.pem, moved that to main system and then changed it's permission with `chmod 600 rsafile.pem`
+`ssh -i rsafile.pem bandit17@bandit.labs.overthewire.org -p2220` then entered the password of bandit16 got the password of 17
