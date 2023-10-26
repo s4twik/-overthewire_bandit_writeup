@@ -190,7 +190,12 @@ got all the ports which were in open state
 now we had to know filter the ports whose service was ssh so used `-sV` with
 `nmap localhost -sV -p 31046,31518,31691,31790,31960 `
 got two ports which were ssl
+![image](https://github.com/s4twik/-overthewire_bandit_writeup/assets/147993943/93d0f889-d4d4-47de-b5a1-6d177394352f)
+
 so `openssl s_client bandit17@localhost:31790` didn't work cuz didn't use `-connect`
 `openssl s_client -connect localhost:31790` gave me the rsa file
 i saved that in a file rsafile.pem, moved that to main system and then changed it's permission with `chmod 600 rsafile.pem`
 `ssh -i rsafile.pem bandit17@bandit.labs.overthewire.org -p2220` then entered the password of bandit16 got the password of 17
+```
+PASSWORD : VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
+```
