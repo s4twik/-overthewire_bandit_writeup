@@ -199,3 +199,14 @@ i saved that in a file rsafile.pem, moved that to main system and then changed i
 ```
 PASSWORD : VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 ```
+#### LEVEL 17 -> LEVEL 18
+`diff passwords.new passwords.old` 
+```
+PASSWORD : hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+```
+#### LEVEL 18 -> LEVEL 19
+`ssh bandit18@bandit.labs.overthewire.org -p2220 cat readme`
+```
+PASSWORD:awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+```
+#### LEVEL 19
