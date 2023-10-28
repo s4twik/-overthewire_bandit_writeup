@@ -209,4 +209,13 @@ PASSWORD : hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 ```
 PASSWORD:awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 ```
-#### LEVEL 19
+#### LEVEL 19-> LEVEL 20
+read about setuid file
+this this binary file was giving us the access of bandit 20 to get the password from the file bandit_pass
+
+`./bandit20-do cat /etc/bandit_pass/bandit20`
+```
+PASSWORD:VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+```
+#### LEVEL 20->LEVEL21
+
